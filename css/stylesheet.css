@@ -1,0 +1,280 @@
+#header-img{
+    width: 350px;
+    margin: left 20px;
+    margin-bottom:200px ;
+    align-items: left;
+
+}
+#header2-img{
+  width: 350px;
+  margin: left 20px;
+  margin-bottom:200px ;
+  align-items: left;
+  margintop:50px;
+  float: right;
+  align-content: top;
+
+}
+#header2-img {
+  float: right;
+  align-content: top;
+}
+#header3-img{
+  width: 350px;
+  margin: left 20px;
+  margin-bottom:200px ;
+  align-items: center;
+  margin-top: 50px;
+  float: right;
+  align-content: top;
+
+
+}
+p{ text-transform: capitalize;
+   text-align: center;
+   font-family: monospace;
+   font-size: 22px;
+
+
+
+}
+
+.nav-link {
+    border: 0px solid rgb(245, 17, 17);
+    position: relative;
+    width: 98%;
+    top: 5px;
+    left:5px;
+    font-family: 'Lato' ;
+    font-size: 25px;
+    padding: 2em;
+    word-spacing:55px
+    font-size:60px;
+    text-decoration:none;
+    
+   
+
+}
+#nav-bar{
+  overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: -10px;
+    left: 0;
+    background-image: url(/assets/white_background.jpeg);
+    font-family: monospace, 'Arial Narrow Bold', sans-serif;
+    padding-top:1em
+
+
+  
+}
+h1{font-size: 45px;
+    font-family:'lato',monospace ;
+    margin-top: 0px;
+    margin-right: 250px;
+    text-align: center;
+    margin-left: 50px;
+
+
+
+}
+/* unvisited link */
+a:link {
+    color: rgb(54, 54, 52);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(54, 54, 52);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(163, 235, 240);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(54, 54, 52);
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgba(106, 159, 168, 0.39);
+    }
+    
+  }
+
+  
+
+
+   #ul1 {
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/4878e5c762111c5fd8881e864ad5b9df/ic_flowstate_pc.svg);
+  
+  }
+
+#ul2{
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/faf8d17b2d2e2b73642fb78dbd80cd39/ic_handsfree_pc.svg);
+    
+    
+}
+
+#ul3{
+    
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/d77f03e93a0bb530af8d089e8900c196/ic_mountanyway_pc.svg);
+
+}
+#ul4{
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/3b01706bb602d0cf53325db4e59e69c4/ic_1440p50fps_pc.svg);
+ 
+}
+
+#ul5{
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/2fe3fa6b9440b4fa9ab5d4e9db508caa/ic_Waterproof_pc.svg);
+  
+}
+
+#ul6{
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/7477938836d883f1e98d81d031f1946d/ic_autoediting_pc.svg);
+}
+
+#ul7{
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/f6d9a2bdffd019c8ea599fc3a7f9f9a8/ic_hyperlapse_pc.svg);
+}
+
+ #ul8{
+     list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/55068fd0bd2868776d0774c528ec10a4/ic_slowmo_pc.svg);
+}
+
+#ul9{
+    list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/83db51ed1d8d52c14a5480c542387d92/ic_remotecontorl_pc.svg);
+}
+
+
+  #ul10{
+      list-style-image: url(https://res.insta360.com/static/assets/storage/20210126/c33cab3067ea9210ad3f6b7873e10953/ic_wifipreview_pc.svg);
+}
+
+   
+ul {
+        
+    column-count: 5; 
+    column-gap: 50px ;  
+     width: 90%;
+     height: 120px;
+     text-align: left;
+   }
+  
+   body {
+    background-image:url(/assets/white_background.jpeg);
+    background-position:fixed;
+    background-repeat:  repeat;
+    max-width: 100%;
+    margin-left: 35px;
+    margin-right:0px
+    height:900px;
+    
+   }
+   #video2 {
+     margin-top:0px;
+     position:relative; top: 0px; left: 50px;
+   }
+  
+   #camera-alone{position:relative
+
+
+
+   }
+   #picture1{
+     display: block;  
+    position: relative;
+    max-width:400px;
+    height:inherit;
+    margin-left: 0px;
+
+   }
+   #picture2{display:block;
+    position: relative;
+    max-width:400px;
+    height:inherit;
+  }
+
+   }
+   #picture3{display:block;
+    position: relative;
+    max-width:300px;
+    height:auto;
+  }
+
+   }
+   #picture4{display:block;
+    position: relative;
+    max-width:300px;
+    height:auto;
+  }
+
+   }
+   
+   #picture5{
+    display:block;
+     position:left;
+     max-width:300px;
+     height:auto;
+   }
+   .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px, 4px;
+    position: relative;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    column-count: 3; 
+    column-gap: 25px ;  
+     width: 100%;
+     height: auto;
+   vertical-align: middle;
+   position: relative;
+  }
+  
+  .column img {
+    float: right;
+    column-count: 2; 
+    column-gap: 5px ;  
+     width: 90%;
+     height: auto;
+    vertical-align: middle;
+    position: relative;
+  }
+tb{font-family: monospace;
+  font-size:35px;
+}
+ #insta360link{
+   margin-top: 40px;
+   max-width:80px ;
+   max-height: auto;
+
+ }
+ #amazonlink{
+   max-width:100px ;max-height: auto;
+
+ } 
+ #email{justify-content:right;
+  
+  margin-left:500px;
+
+
+ }
+ #submit{
+   justify-content:right;
+  
+ margin-left:20pxpx;
+
+
+ }
+ #momentlink{
+   max-width:80px ;
+   max-height: auto;
+
+ } 
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
