@@ -61,7 +61,7 @@ p{ text-transform: capitalize;
     width: 100%;
     top: -10px;
     left: 0;
-    background-image: url(/assets/white_background.jpeg);
+    background-image: url(assets/white_background.jpeg);
     font-family: monospace, 'Arial Narrow Bold', sans-serif;
     padding-top:1em
 
@@ -165,7 +165,7 @@ ul {
    }
   
    body {
-    background-image:url(/assets/white_background.jpeg);
+    background-image:url(assets/white_background.jpeg);
     background-position:fixed;
     background-repeat:  repeat;
     max-width: 100%;
